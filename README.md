@@ -48,7 +48,7 @@ Head~0：指向最新的版本   Head~1： 表示更旧的一个版本
 
     `git merge dev`
 
-### 4. 提交代码 到 git 服务器 (github)
+### 4. 通过 HTTP 提交代码 到 git 服务器 (github) 
 
 `git push [地址] master`
 
@@ -56,3 +56,7 @@ Head~0：指向最新的版本   Head~1： 表示更旧的一个版本
 
 `git pull [地址] master`
 *注意: 本地要初始化一个仓库（git init）*
+
+### 通过 ssh 
+
+生成 公钥 和 私钥  `ssh-keygen -t rsa -C "1536847077@qq.com"`
