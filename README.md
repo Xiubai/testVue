@@ -25,4 +25,6 @@ git status  查看状态
 reset：重置  
 --hard： 把代码拿过来  
 Head~0： 指向最新的版本   Head~1： 表示更旧的一个版本    
-`git reset --hard Head~0`
+`git reset --hard Head~0`  
+也可以 `git reset --hard xxxxxxxx`      xxxxxxxx： 8位的标识符
+
