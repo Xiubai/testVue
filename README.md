@@ -51,3 +51,8 @@ Head~0：指向最新的版本   Head~1： 表示更旧的一个版本
 ### 4. 提交代码 到 git 服务器 (github)
 
 `git push [地址] master`
+
+### 5. 获取服务器上的代码
+
+`git pull [地址] master`
+*注意: 本地要初始化一个仓库（git init）*
