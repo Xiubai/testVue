@@ -21,10 +21,11 @@ git status  查看状态
 直接放到仓库： git commit --all -m "这是说明"
 ```
 ### 2. 版本回退
-
+```
 reset：重置  
 --hard： 把代码拿过来  
-Head~0： 指向最新的版本   Head~1： 表示更旧的一个版本    
+Head~0：指向最新的版本   Head~1： 表示更旧的一个版本
+```
 
 `git reset --hard Head~0`  
 
@@ -47,6 +48,6 @@ Head~0： 指向最新的版本   Head~1： 表示更旧的一个版本
 
     `git merge dev`
 
-### 4. 提交代码 到 git 
+### 4. 提交代码 到 git 服务器 (github)
 
 `git push [地址] master`
