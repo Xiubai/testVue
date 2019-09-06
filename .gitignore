@@ -1,0 +1,5 @@
+# 把不需要的 忽略掉
+node_modules
+.idea
+.vscode
+.git
